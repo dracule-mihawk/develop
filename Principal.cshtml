@@ -1,0 +1,30 @@
+﻿/*
+ * Created by SharpDevelop.
+ * User: Aula1
+ * Date: 17/09/2013
+ * Time: 07:23 p.m.
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace tarea1
+{
+	public class Principal
+	{
+		public static void Main
+		{
+			
+			tarea1.Persona p = tarea1.Persona();
+			Console.WriteLine("dame tu nombre");
+			p.nombre = Console.ReadLine();
+			Console.WriteLine("nombre:"+p.nombre);
+			Console.WriteLine("Correo electronico");
+			p.correo = Console.ReadLine();
+			Console.WriteLine("e_mail:"+p.correo);
+			Console.WriteLine("Edad");
+			p.edad = Console.ReadLine();
+			Console.WriteLine("Edad:"+p.edad);
+		}
+	}
+}
